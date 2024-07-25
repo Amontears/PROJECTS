@@ -26,6 +26,6 @@ def main(source_dir, dest_dir):
         executor.submit(process_directory, source_dir, dest_dir)
 
 if __name__ == "__main__":
-    source_directory = r"F:\PROJECTS\IT\hmw3module\Trash"
-    destination_directory = r"F:\PROJECTS\IT\hmw3module\Sorted"
+    source_directory = r"F:\PROJECTS\IT\hmw3module\hmw3part1\Trash"
+    destination_directory = r"F:\PROJECTS\IT\hmw3module\hmw3part1\Sorted"
     main(source_directory, destination_directory)
